@@ -4,10 +4,10 @@ class Snowflake
     {
         // Create a new snowflake with a default
         // x, y, size, and speed
-        this.x = 100;
-        this.y = 0;
-        this.size = 10;
-        this.speed = 2;
+        this.x = random(width);
+        this.y = random(height);
+        this.size = random(10,20);
+        this.speed = random(1,3);
     }
 
     move()
